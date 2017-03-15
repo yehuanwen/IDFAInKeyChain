@@ -25,7 +25,7 @@ static NSString * const IDFAInKeyChainKey = @"idfa.keychain.key";
     if (!idfa || idfa.length == 0) {
         if ([ASIdentifierManager sharedManager].advertisingTrackingEnabled)
         {
-            idfa = [[[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString] lowercaseString];
+            idfa = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
             if (![UICKeyChainStore setString:idfa forKey:IDFAInKeyChainKey]) {
                 NSLog(@"fail to save idfa in keychain");
             };
