@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1619FE11DF531FF436BA3310 /* libPods-IDFAInKeyChain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9FF7BE6E0C3FE5B1E40403 /* libPods-IDFAInKeyChain.a */; };
+		A02D0CCD1E7925C700FE07C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D0CCC1E7925C700FE07C8 /* main.m */; };
+		A02D0CD01E7925C700FE07C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D0CCF1E7925C700FE07C8 /* AppDelegate.m */; };
+		A02D0CD31E7925C700FE07C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D0CD21E7925C700FE07C8 /* ViewController.m */; };
+		A02D0CD61E7925C700FE07C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02D0CD41E7925C700FE07C8 /* Main.storyboard */; };
+		A02D0CD81E7925C700FE07C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02D0CD71E7925C700FE07C8 /* Assets.xcassets */; };
+		A02D0CDB1E7925C700FE07C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02D0CD91E7925C700FE07C8 /* LaunchScreen.storyboard */; };
+		A02D0CE41E79265D00FE07C8 /* IDFAInKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A02D0CE31E79265D00FE07C8 /* IDFAInKeyChain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B9FF7BE6E0C3FE5B1E40403 /* libPods-IDFAInKeyChain.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDFAInKeyChain.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C78A82AC3B4C76FB3BB0E78 /* Pods-IDFAInKeyChain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDFAInKeyChain.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDFAInKeyChain/Pods-IDFAInKeyChain.release.xcconfig"; sourceTree = "<group>"; };
+		A02D0CC81E7925C700FE07C8 /* IDFAInKeyChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDFAInKeyChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02D0CCC1E7925C700FE07C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A02D0CCE1E7925C700FE07C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A02D0CCF1E7925C700FE07C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A02D0CD11E7925C700FE07C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A02D0CD21E7925C700FE07C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A02D0CD51E7925C700FE07C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A02D0CD71E7925C700FE07C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02D0CDA1E7925C700FE07C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A02D0CDC1E7925C700FE07C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02D0CE21E79265D00FE07C8 /* IDFAInKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDFAInKeyChain.h; sourceTree = "<group>"; };
+		A02D0CE31E79265D00FE07C8 /* IDFAInKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDFAInKeyChain.m; sourceTree = "<group>"; };
+		C52FE88E359704559BAFDEF0 /* Pods-IDFAInKeyChain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDFAInKeyChain.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDFAInKeyChain/Pods-IDFAInKeyChain.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02D0CC51E7925C700FE07C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1619FE11DF531FF436BA3310 /* libPods-IDFAInKeyChain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296DD65A3269E5E0250D4198 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C52FE88E359704559BAFDEF0 /* Pods-IDFAInKeyChain.debug.xcconfig */,
+				5C78A82AC3B4C76FB3BB0E78 /* Pods-IDFAInKeyChain.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6506C20FC8CDE78DA7428AFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9FF7BE6E0C3FE5B1E40403 /* libPods-IDFAInKeyChain.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A02D0CBF1E7925C700FE07C8 = {
+			isa = PBXGroup;
+			children = (
+				A02D0CCA1E7925C700FE07C8 /* IDFAInKeyChain */,
+				A02D0CC91E7925C700FE07C8 /* Products */,
+				296DD65A3269E5E0250D4198 /* Pods */,
+				6506C20FC8CDE78DA7428AFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A02D0CC91E7925C700FE07C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02D0CC81E7925C700FE07C8 /* IDFAInKeyChain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02D0CCA1E7925C700FE07C8 /* IDFAInKeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				A02D0CCE1E7925C700FE07C8 /* AppDelegate.h */,
+				A02D0CCF1E7925C700FE07C8 /* AppDelegate.m */,
+				A02D0CD11E7925C700FE07C8 /* ViewController.h */,
+				A02D0CD21E7925C700FE07C8 /* ViewController.m */,
+				A02D0CD41E7925C700FE07C8 /* Main.storyboard */,
+				A02D0CD71E7925C700FE07C8 /* Assets.xcassets */,
+				A02D0CD91E7925C700FE07C8 /* LaunchScreen.storyboard */,
+				A02D0CDC1E7925C700FE07C8 /* Info.plist */,
+				A02D0CCB1E7925C700FE07C8 /* Supporting Files */,
+				A02D0CE21E79265D00FE07C8 /* IDFAInKeyChain.h */,
+				A02D0CE31E79265D00FE07C8 /* IDFAInKeyChain.m */,
+			);
+			path = IDFAInKeyChain;
+			sourceTree = "<group>";
+		};
+		A02D0CCB1E7925C700FE07C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A02D0CCC1E7925C700FE07C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02D0CC71E7925C700FE07C8 /* IDFAInKeyChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02D0CDF1E7925C700FE07C8 /* Build configuration list for PBXNativeTarget "IDFAInKeyChain" */;
+			buildPhases = (
+				4760401E33AFA597312BE15F /* [CP] Check Pods Manifest.lock */,
+				A02D0CC41E7925C700FE07C8 /* Sources */,
+				A02D0CC51E7925C700FE07C8 /* Frameworks */,
+				A02D0CC61E7925C700FE07C8 /* Resources */,
+				FE7E60E8380B4AC12974BC85 /* [CP] Embed Pods Frameworks */,
+				49CA7E45B75DFB81FC6B1FEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDFAInKeyChain;
+			productName = IDFAInKeyChain;
+			productReference = A02D0CC81E7925C700FE07C8 /* IDFAInKeyChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02D0CC01E7925C700FE07C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yhw;
+				TargetAttributes = {
+					A02D0CC71E7925C700FE07C8 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MVW5GHKJP6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A02D0CC31E7925C700FE07C8 /* Build configuration list for PBXProject "IDFAInKeyChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02D0CBF1E7925C700FE07C8;
+			productRefGroup = A02D0CC91E7925C700FE07C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02D0CC71E7925C700FE07C8 /* IDFAInKeyChain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02D0CC61E7925C700FE07C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02D0CDB1E7925C700FE07C8 /* LaunchScreen.storyboard in Resources */,
+				A02D0CD81E7925C700FE07C8 /* Assets.xcassets in Resources */,
+				A02D0CD61E7925C700FE07C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4760401E33AFA597312BE15F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49CA7E45B75DFB81FC6B1FEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDFAInKeyChain/Pods-IDFAInKeyChain-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE7E60E8380B4AC12974BC85 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDFAInKeyChain/Pods-IDFAInKeyChain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02D0CC41E7925C700FE07C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02D0CD31E7925C700FE07C8 /* ViewController.m in Sources */,
+				A02D0CD01E7925C700FE07C8 /* AppDelegate.m in Sources */,
+				A02D0CE41E79265D00FE07C8 /* IDFAInKeyChain.m in Sources */,
+				A02D0CCD1E7925C700FE07C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A02D0CD41E7925C700FE07C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02D0CD51E7925C700FE07C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A02D0CD91E7925C700FE07C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02D0CDA1E7925C700FE07C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02D0CDD1E7925C700FE07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A02D0CDE1E7925C700FE07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02D0CE01E7925C700FE07C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C52FE88E359704559BAFDEF0 /* Pods-IDFAInKeyChain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVW5GHKJP6;
+				INFOPLIST_FILE = IDFAInKeyChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plusdot.news;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A02D0CE11E7925C700FE07C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C78A82AC3B4C76FB3BB0E78 /* Pods-IDFAInKeyChain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MVW5GHKJP6;
+				INFOPLIST_FILE = IDFAInKeyChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plusdot.news;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02D0CC31E7925C700FE07C8 /* Build configuration list for PBXProject "IDFAInKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02D0CDD1E7925C700FE07C8 /* Debug */,
+				A02D0CDE1E7925C700FE07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02D0CDF1E7925C700FE07C8 /* Build configuration list for PBXNativeTarget "IDFAInKeyChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02D0CE01E7925C700FE07C8 /* Debug */,
+				A02D0CE11E7925C700FE07C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02D0CC01E7925C700FE07C8 /* Project object */;
+}
