@@ -150,8 +150,12 @@
 				TargetAttributes = {
 					A02D0CC71E7925C700FE07C8 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = MVW5GHKJP6;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -363,10 +367,10 @@
 			baseConfigurationReference = C52FE88E359704559BAFDEF0 /* Pods-IDFAInKeyChain.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MVW5GHKJP6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IDFAInKeyChain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.plusdot.news;
+				PRODUCT_BUNDLE_IDENTIFIER = idfa.in.keychain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -376,10 +380,10 @@
 			baseConfigurationReference = 5C78A82AC3B4C76FB3BB0E78 /* Pods-IDFAInKeyChain.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = MVW5GHKJP6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = IDFAInKeyChain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.plusdot.news;
+				PRODUCT_BUNDLE_IDENTIFIER = idfa.in.keychain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
